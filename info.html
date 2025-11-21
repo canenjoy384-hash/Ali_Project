@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="دليل الزوار الشامل - معلومات كاملة عن ساعات العمل والرسوم والإرشادات لجميع معالم عمان السياحية">
+  <meta name="keywords" content="دليل سياحي، ساعات العمل، رسوم الدخول، عمان">
+  <title>دليل الزوار | اكتشف عمان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav>
+    <div class="nav-logo">
+      <span>🇴🇲</span>
+      <span>سياحة عُمان</span>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="mosque.html">جامع السلطان قابوس</a></li>
+      <li><a href="fort.html">قلعة نزوى</a></li>
+      <li><a href="wadi.html">وادي شاب</a></li>
+      <li><a href="info.html" class="active">دليل الزوار</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80" alt="دليل الزوار الشامل" class="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <h1>دليل الزوار الشامل</h1>
+      <p>كل ما تحتاج لمعرفته لزيارة معالم عمان السياحية</p>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- Introduction Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>مرحباً بك في دليل الزوار</h2>
+        </div>
+        <div style="max-width: 900px; margin: 0 auto;">
+          <p>
+            يحتوي هذا الدليل الشامل على كل المعلومات التي تحتاجها لتخطيط رحلتك إلى معالم سلطنة عمان السياحية. من ساعات العمل ورسوم الدخول إلى الإرشادات العملية والنصائح الهامة، ستجد كل ما تحتاجه لضمان رحلة مريحة وممتعة.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Information Table -->
+    <section class="section" style="background-color: var(--white);">
+      <div class="container">
+        <div class="section-title">
+          <h2>جدول معلومات المعالم السياحية</h2>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>المعلم السياحي</th>
+                <th>الموقع</th>
+                <th>ساعات العمل</th>
+                <th>رسم الدخول</th>
+                <th>ملاحظات مهمة</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>جامع السلطان قابوس الأكبر</strong></td>
+                <td>مسقط</td>
+                <td>السبت - الخميس: 8:00 صباحاً - 11:00 صباحاً<br>4:00 مساءً - 5:30 مساءً<br>الجمعة: 4:00 مساءً - 5:30 مساءً</td>
+                <td>مجاني</td>
+                <td>مغلق خلال أوقات الصلوات. يفضل ارتداء ملابس محترمة والنساء يرتدين الحجاب. النعال تُخلع عند الدخول</td>
+              </tr>
+              <tr>
+                <td><strong>قلعة نزوى</strong></td>
+                <td>نزوى (120 كم عن مسقط)</td>
+                <td>السبت - الخميس: 8:00 صباحاً - 4:00 مساءً<br>الجمعة: 8:00 صباحاً - 12:00 ظهراً<br>الجمعة: 3:00 مساءً - 4:00 مساءً</td>
+                <td>الكبار: 3 ريال عماني<br>الأطفال: 1 ريال عماني</td>
+                <td>الدرج ضيق والارتفاع كبير. ارتدِ أحذية مريحة. أفضل وقت: الصباح الباكر. قد تكون مزدحمة بعد الظهر</td>
+              </tr>
+              <tr>
+                <td><strong>وادي شاب</strong></td>
+                <td>على ساحل البحر (ساحل الباطنة)</td>
+                <td>مفتوح طوال السنة<br>أفضل من الصباح إلى المساء</td>
+                <td>الدخول مجاني<br>ركوب القارب: 5-6 ريال عماني</td>
+                <td>الماء بارد جداً طوال السنة. الصخور قد تكون زلقة. تجنب الزيارة بعد أمطار غزيرة. أفضل وقت: سبتمبر إلى مايو</td>
+              </tr>
+              <tr>
+                <td><strong>سوق نزوى التراثي</strong></td>
+                <td>نزوى (بجوار القلعة)</td>
+                <td>يومياً: 7:00 صباحاً - 6:00 مساءً<br>الجمعة: 8:00 صباحاً - 12:00 ظهراً</td>
+                <td>مجاني</td>
+                <td>سوق تقليدي يبيع الحرف اليدوية والسلع التقليدية. أفضل وقت: الصباح الباكر قبل الزحام</td>
+              </tr>
+              <tr>
+                <td><strong>منطقة الكورنيش</strong></td>
+                <td>مسقط</td>
+                <td>مفتوح 24/7</td>
+                <td>مجاني</td>
+                <td>مكان مثالي للمشي والاسترخاء. جميل بشكل خاص عند الغروب. توجد محلات ومطاعم قريبة</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Visitor Guidelines -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>إرشادات عملية للزوار</h2>
+        </div>
+        <div class="grid">
+          <!-- Guidelines 1 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🎒 ماذا تأخذ معك</h3>
+              <ul style="list-style: none; color: var(--text-light); line-height: 2;">
+                <li>✓ جواز سفر وأوراق الهوية</li>
+                <li>✓ مياه كافية (أهم جداً)</li>
+                <li>✓ واقي شمس (SPF 50+)</li>
+                <li>✓ نظارات شمسية</li>
+                <li>✓ قبعة أو غطاء رأس</li>
+                <li>✓ أحذية مريحة</li>
+                <li>✓ كاميرا أو هاتف ذكي</li>
+                <li>✓ حقيبة صغيرة أو ظهر</li>
+                <li>✓ وجبات خفيفة</li>
+                <li>✓ نقود سائلة وبطاقات دفع</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Guidelines 2 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">👗 قواعس اللباس</h3>
+              <ul style="list-style: none; color: var(--text-light); line-height: 2;">
+                <li>✓ ملابس محترمة وستيرة</li>
+                <li>✓ تجنب السراويل القصيرة جداً</li>
+                <li>✓ تجنب الملابس الشفافة</li>
+                <li>✓ النساء: يفضل الحجاب</li>
+                <li>✓ ملابس سباحة محتشمة لوادي شاب</li>
+                <li>✓ أحذية مريحة قابلة للإزالة</li>
+                <li>✓ طبقات من الملابس (البيئة الداخلية باردة)</li>
+                <li>✓ جاكيت خفيف للمساء</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Guidelines 3 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🌡️ درجات الحرارة والمناخ</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>الصيف (يونيو-أغسطس):</strong><br>
+                40-45 درجة مئوية - حار جداً
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>الخريف (سبتمبر-نوفمبر):</strong><br>
+                30-35 درجة مئوية - مثالي للزيارة
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>الشتاء (ديسمبر-فبراير):</strong><br>
+                25-30 درجة مئوية - لطيف وممتع
+              </p>
+              <p style="color: var(--text-light);">
+                <strong>الربيع (مارس-مايو):</strong><br>
+                35-40 درجة مئوية - دافئ وجميل
+              </p>
+            </div>
+          </div>
+
+          <!-- Guidelines 4 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">💵 معلومات النقود والدفع</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>العملة:</strong> الريال العماني (OMR)<br>
+                1 ريال = 100 بيسة
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>صرف التحويل (تقريبي):</strong><br>
+                1 ريال ≈ 2.6 دولار أمريكي
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>وسائل الدفع:</strong><br>
+                ✓ بطاقات الائتمان في المدن الكبرى<br>
+                ✓ نقود سائلة في الأماكن الريفية<br>
+                ✓ صرافات آلية متوفرة
+              </p>
+            </div>
+          </div>
+
+          <!-- Guidelines 5 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🚗 المواصلات والتنقل</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>سيارات أجرة:</strong><br>
+                متوفرة بسهولة، قد لا تملك عداد<br>
+                تفاوض على السعر مسبقاً
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>تأجير سيارات:</strong><br>
+                متاح في المطار والمدينة<br>
+                تأكد من الترخيص الدولي
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>وسائل نقل أخرى:</strong><br>
+                حافلات عامة<br>
+                جولات سياحية منظمة
+              </p>
+            </div>
+          </div>
+
+          <!-- Guidelines 6 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">📞 معلومات الطوارئ والاتصال</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>أرقام الطوارئ:</strong><br>
+                شرطة: 9911<br>
+                إسعاف: 9911<br>
+                حريق: 9911
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>الاتصالات:</strong><br>
+                رمز البلد: +968<br>
+                شبكات الهاتف المحمول متاحة<br>
+                Wi-Fi في المدن الكبرى
+              </p>
+            </div>
+          </div>
+
+          <!-- Guidelines 7 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🏥 الصحة والسلامة</h3>
+              <ul style="list-style: none; color: var(--text-light); line-height: 2;">
+                <li>✓ التأمين الصحي مستحسن</li>
+                <li>✓ شرب المياه المعبأة فقط</li>
+                <li>✓ استخدم واقي شمس عالي</li>
+                <li>✓ احمِ نفسك من الجفاف</li>
+                <li>✓ احمِ نفسك من الحيوانات الزاحفة</li>
+                <li>✓ المستشفيات متقدمة في المدن</li>
+                <li>✓ الأدوية متوفرة بسهولة</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Guidelines 8 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🎒 نصائح سفر مهمة</h3>
+              <ul style="list-style: none; color: var(--text-light); line-height: 2;">
+                <li>✓ احترم الثقافة والعادات المحلية</li>
+                <li>✓ لا تصور الناس بدون إذن</li>
+                <li>✓ تعلم بعض العبارات العربية</li>
+                <li>✓ كن مستعداً للقيادة الجريئة</li>
+                <li>✓ تجنب القيادة ليلاً</li>
+                <li>✓ احمل نسخة من جواز سفرك</li>
+                <li>✓ أخبر شخصاً بمسار رحلتك</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Times to Visit Section -->
+    <section class="section" style="background-color: var(--white);">
+      <div class="container">
+        <div class="section-title">
+          <h2>أفضل أوقات الزيارة</h2>
+        </div>
+        <div style="max-width: 1000px; margin: 0 auto;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg);">
+            <div style="background: linear-gradient(135deg, rgba(0, 95, 64, 0.1), rgba(212, 175, 55, 0.1)); padding: var(--spacing-lg); border-radius: var(--radius-md); border-right: 4px solid var(--accent-gold);">
+              <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-md);">🍂 الخريف (سبتمبر - نوفمبر)</h3>
+              <p style="color: var(--text-light);">
+                <strong>درجة التوصية:</strong> ⭐⭐⭐⭐⭐<br><br>
+                أفضل وقت للزيارة. درجات حرارة معتدلة، قليل الأمطار. مثالي لاستكشاف جميع المعالم بدون إرهاق.
+              </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, rgba(0, 95, 64, 0.1), rgba(212, 175, 55, 0.1)); padding: var(--spacing-lg); border-radius: var(--radius-md); border-right: 4px solid var(--accent-gold);">
+              <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-md);">❄️ الشتاء (ديسمبر - فبراير)</h3>
+              <p style="color: var(--text-light);">
+                <strong>درجة التوصية:</strong> ⭐⭐⭐⭐<br><br>
+                ممتاز أيضاً. درجات حرارة منخفضة لكن لطيفة. قد تكون المعالم أكثر ازدحاماً في هذه الفترة.
+              </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, rgba(198, 40, 40, 0.1), rgba(212, 175, 55, 0.1)); padding: var(--spacing-lg); border-radius: var(--radius-md); border-right: 4px solid var(--accent-red);">
+              <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-md);">🌸 الربيع (مارس - مايو)</h3>
+              <p style="color: var(--text-light);">
+                <strong>درجة التوصية:</strong> ⭐⭐⭐<br><br>
+                جيد لكن حار بعض الشيء. الطقس جميل والطبيعة تستيقظ. يزداد عدد الزوار.
+              </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, rgba(198, 40, 40, 0.1), rgba(212, 175, 55, 0.1)); padding: var(--spacing-lg); border-radius: var(--radius-md); border-right: 4px solid var(--accent-red);">
+              <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-md);">☀️ الصيف (يونيو - أغسطس)</h3>
+              <p style="color: var(--text-light);">
+                <strong>درجة التوصية:</strong> ⭐<br><br>
+                غير موصى به. حرارة شديدة جداً (40+ درجة). معظم الزوار يتجنبون هذه الفترة.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suggested Itineraries Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>مسارات سياحية مقترحة</h2>
+        </div>
+        <div class="grid">
+          <!-- Itinerary 1 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🗓️ رحلة 3 أيام</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>اليوم الأول:</strong><br>
+                الوصول إلى مسقط → جامع السلطان قابوس → الكورنيش → الراحة
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>اليوم الثاني:</strong><br>
+                الذهاب إلى نزوى → قلعة نزوى → سوق نزوى → العودة
+              </p>
+              <p style="color: var(--text-light);">
+                <strong>اليوم الثالث:</strong><br>
+                وادي شاب (رحلة كاملة) → العودة إلى مسقط
+              </p>
+            </div>
+          </div>
+
+          <!-- Itinerary 2 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🗓️ رحلة 5 أيام</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>اليوم الأول & الثاني:</strong><br>
+                استكشاف مسقط والمعالم الثقافية
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>اليوم الثالث & الرابع:</strong><br>
+                جولة إلى نزوى والقلعة والسوق التراثي
+              </p>
+              <p style="color: var(--text-light);">
+                <strong>اليوم الخامس:</strong><br>
+                وادي شاب والعودة
+              </p>
+            </div>
+          </div>
+
+          <!-- Itinerary 3 -->
+          <div class="card">
+            <div class="card-content">
+              <h3 class="card-title">🗓️ رحلة أسبوع كامل</h3>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>أيام 1-2:</strong><br>
+                مسقط والمعالم الرئيسية
+              </p>
+              <p style="color: var(--text-light); margin-bottom: var(--spacing-md);">
+                <strong>أيام 3-4:</strong><br>
+                نزوى والقلعة مع استكشاف عميق
+              </p>
+              <p style="color: var(--text-light);">
+                <strong>أيام 5-7:</strong><br>
+                وادي شاب وأودية أخرى واستكشاف إضافي
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: var(--white);">
+      <div class="container">
+        <div class="section-title">
+          <h2>الأسئلة الشائعة</h2>
+        </div>
+        <div style="max-width: 900px; margin: 0 auto;">
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">هل أحتاج تأشيرة للدخول إلى عمان؟</h3>
+            <p style="color: var(--text-light);">
+              معظم الجنسيات يمكنها الحصول على تأشيرة عند الوصول (Visa on Arrival). تأكد من تحقيق المتطلبات الأساسية: جواز سفر ساري المفعول (6 أشهر على الأقل)، تذاكر عودة، وحجوزات فنادق. بعض الجنسيات تحتاج تأشيرة مسبقة.
+            </p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">كم تكلفة الرحلة الكاملة؟</h3>
+            <p style="color: var(--text-light);">
+              تعتمد على نمط السفر. ميزانية منخفضة: 50-80 ريال يومياً. ميزانية متوسطة: 100-150 ريال يومياً. ميزانية عالية: 200+ ريال يومياً. هذا يشمل الإقامة والطعام والمواصلات والمعالم.
+            </p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">هل من الآمن السفر للنساء منفردات؟</h3>
+            <p style="color: var(--text-light);">
+              نعم، عمان تعتبر وجهة آمنة جداً للنساء. السكان ودودون والمدن آمنة. يُنصح باتخاذ احتياطات أساسية كما في أي مكان: عدم المشي وحدك ليلاً، الانتباه للممتلكات. ارتدِ ملابس محترمة احتراماً للثقافة المحلية.
+            </p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">هل يمكن تأجير سيارة بدون سائق؟</h3>
+            <p style="color: var(--text-light);">
+              نعم، يمكنك تأجير سيارة بسهولة. تأكد من أن لديك رخصة قيادة دولية صالحة وجواز سفر. السياقة في الطرق الرئيسية آمنة نسبياً، لكن الطرق الجبلية قد تكون صعبة. المزارات تطلب رخصة دولية رسمية.
+            </p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">ماذا أفعل إذا احتجت مساعدة طبية؟</h3>
+            <p style="color: var(--text-light);">
+              المستشفيات في عمان متقدمة وآمنة. في حالة الطوارئ، اتصل بـ 9911. التأمين السياحي موصى به. الأدوية متوفرة بسهولة في الصيدليات. قبل السفر، استشر طبيبك حول أي تطعيمات ضرورية.
+            </p>
+          </div>
+
+          <div style="margin-bottom: var(--spacing-lg); padding-bottom: var(--spacing-lg); border-bottom: 1px solid var(--border-color);">
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">هل يمكن الإقامة بدون حجز مسبق؟</h3>
+            <p style="color: var(--text-light);">
+              نعم، لكن الحجز المسبق أفضل خاصة في موسم الذروة (أكتوبر-أبريل). الفنادق والمنتجعات متنوعة من الفخمة إلى الاقتصادية. يمكنك أيضاً استخدام تطبيقات حجز الفنادق أو البقاء مع السكان المحليين (Airbnb).
+            </p>
+          </div>
+
+          <div>
+            <h3 style="color: var(--primary-dark-green); margin-bottom: var(--spacing-sm);">ما اللغات المستخدمة؟</h3>
+            <p style="color: var(--text-light);">
+              اللغة الرسمية هي العربية. الإنجليزية منتشرة في الفنادق والمتاجر والمعالم السياحية. تعلم بعض العبارات العربية البسيطة قد يكون مفيداً وسيقدره السكان المحليون.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-dark-green), var(--accent-red)); color: var(--white);">
+      <div class="container text-center">
+        <h2 style="color: var(--white);">هل أنت مستعد للرحلة؟</h2>
+        <p style="color: var(--white); margin-bottom: var(--spacing-lg);">استكشف جميع المعالم واستمتع بتجربة سياحية لا تُنسى في سلطنة عمان</p>
+        <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+          <a href="index.html" class="btn btn-outline">العودة للرئيسية</a>
+          <a href="mosque.html" class="btn btn-outline">جامع السلطان قابوس</a>
+          <a href="fort.html" class="btn btn-outline">قلعة نزوى</a>
+          <a href="wadi.html" class="btn btn-outline">وادي شاب</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>عن الموقع</h4>
+        <p>منصة شاملة لاكتشاف معالم سلطنة عمان السياحية والثقافية والطبيعية</p>
+      </div>
+      <div class="footer-section">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="mosque.html">جامع السلطان قابوس</a></li>
+          <li><a href="fort.html">قلعة نزوى</a></li>
+          <li><a href="wadi.html">وادي شاب</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>معلومات الاتصال</h4>
+        <p>البريد الإلكتروني: info@discoveroman.om</p>
+        <p>الهاتف: +968 2441 1234</p>
+        <p>الموقع: مسقط، سلطنة عمان</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 اكتشف عمان. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+
+    function setActiveNav() {
+      const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+      const navLinks = document.querySelectorAll('.nav-links a');
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', setActiveNav);
+  </script>
+</body>
+</html>

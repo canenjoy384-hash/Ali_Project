@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="اكتشف عمان - موقع شامل للسياحة في سلطنة عمان. استكشف أبرز المعالم السياحية والثقافية والطبيعية">
+  <meta name="keywords" content="سياحة، عمان، الخليج، معالم، سفر، سياحة ثقافية">
+  <title>الرئيسية | اكتشف عمان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav>
+    <div class="nav-logo">
+      <span>🇴🇲</span>
+      <span>سياحة عُمان</span>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">الرئيسية</a></li>
+      <li><a href="mosque.html">جامع السلطان قابوس</a></li>
+      <li><a href="fort.html">قلعة نزوى</a></li>
+      <li><a href="wadi.html">وادي شاب</a></li>
+      <li><a href="info.html">دليل الزوار</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80" alt="مناظر عمان الطبيعية" class="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <h1>مرحباً بكم في سلطنة عُمان</h1>
+      <p>جوهرة الجزيرة العربية - استكشف الطبيعة الساحرة والتراث العريق والمغامرات الشيقة</p>
+      <a href="#attractions" class="btn btn-primary">ابدأ رحلتك الآن</a>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- Introduction Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>اكتشف روائع عمان</h2>
+        </div>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto var(--spacing-lg);">
+          تتمتع سلطنة عمان بتراث ثقافي عريق وطبيعة ساحرة تجذب آلاف السياح سنوياً. من المعالم المعمارية الإسلامية إلى الوديان الخضراء والقلاع التاريخية، تقدم عمان تجربة سياحية متكاملة تجمع بين الحداثة والأصالة.
+        </p>
+      </div>
+    </section>
+
+    <!-- Attractions Preview Section -->
+    <section class="section" id="attractions" style="background-color: var(--white);">
+      <div class="container">
+        <div class="section-title">
+          <h2>أبرز المعالم السياحية</h2>
+        </div>
+        <div class="grid">
+          <!-- Card 1: Mosque -->
+          <div class="card slide-in">
+            <img src="https://images.unsplash.com/photo-1568885022832-67b7ecc6e4d6?w=600&q=80" alt="جامع السلطان قابوس" class="card-image">
+            <div class="card-content">
+              <h3 class="card-title">جامع السلطان قابوس الأكبر</h3>
+              <p class="card-text">معلم معماري إسلامي فريد، استغرق بناؤه 6 سنوات كاملة. يتميز بتصميمه الهندسي الرائع والزخارف الإسلامية المعقدة. يضم ثريا كريستالية ضخمة وسجادة يدوية فارسية نادرة.</p>
+              <div class="card-footer">
+                <a href="mosque.html" class="btn btn-primary">اكتشف المزيد</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Fort -->
+          <div class="card slide-in">
+            <img src="https://images.unsplash.com/photo-1566299336348-c6e8da1c0f3f?w=600&q=80" alt="قلعة نزوى" class="card-image">
+            <div class="card-content">
+              <h3 class="card-title">قلعة نزوى</h3>
+              <p class="card-text">عبق التاريخ يفوح من هذه القلعة التاريخية العريقة. تتميز بها برجها الدائري الفريد من نوعه في شبه الجزيرة العربية. تحيط بها أسواق تراثية وحرف يدوية تقليدية تعكس الثقافة العمانية الأصيلة.</p>
+              <div class="card-footer">
+                <a href="fort.html" class="btn btn-primary">اكتشف المزيد</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Wadi -->
+          <div class="card slide-in">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="وادي شاب" class="card-image">
+            <div class="card-content">
+              <h3 class="card-title">وادي شاب</h3>
+              <p class="card-text">أعظم وجهة للمغامرة والطبيعة في عمان. مياه فيروزية صافية تلتقي بصخور جيرية بيضاء ناصعة. رحلة متسلسلة تشمل ركوب القارب والمشي وسط الصخور والسباحة في البرك والوصول لكهف مخفي.</p>
+              <div class="card-footer">
+                <a href="wadi.html" class="btn btn-primary">اكتشف المزيد</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Visit Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <h2>لماذا تزور عمان؟</h2>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">🏛️ تراث عريق</h3>
+              <p>اكتشف قصص التاريخ العماني العريق من خلال معالم أثرية وحضارية فريدة</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">🏜️ طبيعة ساحرة</h3>
+              <p>استمتع بتنوع الطبيعة من الجبال الخضراء إلى البحار الصافية والصحاري الذهبية</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">🤿 مغامرات شيقة</h3>
+              <p>جرب تجارب مثيرة من رياضات مائية إلى تسلق جبال واستكشاف كهوف خفية</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">🎨 ثقافة أصيلة</h3>
+              <p>تعرف على الثقافة العمانية الأصيلة من خلال الفنون والحرف اليدوية التقليدية</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">🏨 ضيافة ممتازة</h3>
+              <p>استقبال حار وخدمات عالية المستوى لضمان راحتك وسعادتك طوال الرحلة</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content" style="text-align: center;">
+              <h3 style="font-size: 1.5rem; margin-bottom: var(--spacing-md);">📸 ذكريات لا تُنسى</h3>
+              <p>أنشئ ذكريات جميلة مع عائلتك وأصدقائك في أجمل وجهات السياحة الخليجية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--primary-dark-green), var(--accent-red)); color: var(--white);">
+      <div class="container text-center">
+        <h2 style="color: var(--white);">خطط لرحلتك الآن</h2>
+        <p style="color: var(--white); margin-bottom: var(--spacing-lg);">توجه إلى صفحة دليل الزوار للحصول على معلومات شاملة عن ساعات العمل والرسوم والإرشادات</p>
+        <a href="info.html" class="btn btn-outline">دليل الزوار الشامل</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>عن الموقع</h4>
+        <p>منصة شاملة لاكتشاف معالم سلطنة عمان السياحية والثقافية والطبيعية</p>
+      </div>
+      <div class="footer-section">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="mosque.html">جامع السلطان قابوس</a></li>
+          <li><a href="fort.html">قلعة نزوى</a></li>
+          <li><a href="wadi.html">وادي شاب</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>معلومات الاتصال</h4>
+        <p>البريد الإلكتروني: info@discoveroman.om</p>
+        <p>الهاتف: +968 2441 1234</p>
+        <p>الموقع: مسقط، سلطنة عمان</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 اكتشف عمان. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle Mobile Menu
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+
+    // Set active navigation link
+    function setActiveNav() {
+      const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+      const navLinks = document.querySelectorAll('.nav-links a');
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', setActiveNav);
+  </script>
+</body>
+</html>
